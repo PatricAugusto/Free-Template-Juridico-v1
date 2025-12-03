@@ -47,7 +47,7 @@ function Services() {
           </p>
         </div>
 
-        <Row className="g-4"> 
+        <Row className="g-4 gy-4"> 
           {servicesData.map((service, index) => (
             <Col key={index} lg={4} md={6}>
               <Card className="h-100 shadow-sm border-0 transition-hover">

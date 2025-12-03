@@ -34,7 +34,7 @@ function HeroSection() {
       <Container className="position-relative" style={{ zIndex: 2 }}>
         <Row className="justify-content-center">
           <Col md={10} lg={8}>
-            <h1 className="display-3 fw-bolder mb-4 text-warning animate-fade-in delay-1">
+            <h1 className="display-3 fw-bolder mb-4 text-warning animate-fade-in delay-1 hero-h1">
               Excelência Legal em um Mundo em Evolução
             </h1>
             
@@ -48,7 +48,7 @@ function HeroSection() {
                 variant="warning" 
                 size="lg" 
                 href="#contato"
-                className="px-5 py-3 fw-bold shadow-lg"
+                className="px-5 py-3 fw-bold shadow-lg hero-cta-button"
               >
                 <i className="bi bi-calendar-check me-2"></i> 
                 Agende Sua Consulta
@@ -57,7 +57,7 @@ function HeroSection() {
                 variant="outline-light" 
                 size="lg" 
                 href="#servicos"
-                className="px-5 py-3 fw-bold"
+                className="px-5 py-3 fw-bold hero-cta-button"
               >
                 <i className="bi bi-shield-check me-2"></i>
                 Nossas Áreas de Atuação
