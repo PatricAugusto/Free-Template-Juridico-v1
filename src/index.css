@@ -1,0 +1,21 @@
+.hover-effect {
+    position: relative;
+    padding-bottom: 5px; 
+}
+
+.hover-effect::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px; 
+    bottom: 0;
+    left: 50%;
+    background-color: #FFD700; 
+    transition: width 0.3s ease-out, left 0.3s ease-out;
+}
+
+.hover-effect:hover::after,
+.hover-effect:focus::after {
+    width: 100%;
+    left: 0;
+}
