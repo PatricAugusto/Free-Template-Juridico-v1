@@ -49,6 +49,32 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
     transition: border-color 0.3s ease; 
 }
 
+.info-card-hover {
+    transition: all 0.3s ease;
+    cursor: pointer; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-card-hover:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3); 
+    border: 1px solid #FFD700 !important; 
+}
+
+.modern-input {
+    border: none;
+    border-bottom: 2px solid #DDDDDD; 
+    border-radius: 0; 
+    padding-left: 0; 
+    transition: border-color 0.3s ease;
+}
+
+.modern-input:focus {
+    border-color: #FFD700 !important; 
+    box-shadow: none !important; 
+    border-bottom: 2px solid #FFD700 !important; 
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

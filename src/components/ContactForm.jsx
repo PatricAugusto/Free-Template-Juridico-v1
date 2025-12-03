@@ -38,17 +38,17 @@ function ContactForm() {
                 
                 <Form.Group className="mb-3" controlId="formName">
                   <Form.Label>Seu Nome Completo</Form.Label>
-                  <Form.Control type="text" placeholder="Insira seu nome" required />
+                  <Form.Control type="text" placeholder="Insira seu nome" required className="modern-input" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formEmail">
                   <Form.Label>Seu Melhor Email</Form.Label>
-                  <Form.Control type="email" placeholder="nome@exemplo.com" required />
+                  <Form.Control type="email" placeholder="nome@exemplo.com" required className="modern-input" />
                 </Form.Group>
 
                  <Form.Group className="mb-3" controlId="formSubject">
                   <Form.Label>Assunto</Form.Label>
-                  <Form.Control type="text" placeholder="Ex: Dúvida Trabalhista" required />
+                  <Form.Control type="text" placeholder="Ex: Dúvida Trabalhista" required className="modern-input" />
                 </Form.Group>
                 
                 <Form.Group className="mb-4" controlId="formMessage">
@@ -58,6 +58,7 @@ function ContactForm() {
                     rows={4} 
                     placeholder="Descreva brevemente sua necessidade jurídica..." 
                     required 
+                    className="modern-input"
                   />
                 </Form.Group>
 
@@ -77,19 +78,19 @@ function ContactForm() {
           <Col lg={4} className="order-lg-1 mb-4 mb-lg-0">
             <h4 className="fw-bold mb-4 text-dark">Informações Diretas</h4>
             
-            <div style={infoItemStyle}>
+            <div className="info-card-hover border border-dark" style={infoItemStyle}> 
               <i className="bi bi-envelope-fill me-3" style={{ color: '#FFD700', fontSize: '1.5rem' }}></i>
               <h5 className="mb-1 text-warning">Email</h5>
               <p className="mb-0">contato@escritorioadv.com</p>
             </div>
 
-            <div style={infoItemStyle}>
+            <div className="info-card-hover border border-dark" style={infoItemStyle}>
               <i className="bi bi-telephone-fill me-3" style={{ color: '#FFD700', fontSize: '1.5rem' }}></i>
               <h5 className="mb-1 text-warning">Telefone</h5>
               <p className="mb-0">(11) 98765-4321</p>
             </div>
 
-            <div style={infoItemStyle}>
+            <div className="info-card-hover border border-dark" style={infoItemStyle}>
               <i className="bi bi-geo-alt-fill me-3" style={{ color: '#FFD700', fontSize: '1.5rem' }}></i>
               <h5 className="mb-1 text-warning">Localização</h5>
               <p className="mb-0">Av. Brasil, 1234 - 15º Andar, São Paulo/SP</p>
