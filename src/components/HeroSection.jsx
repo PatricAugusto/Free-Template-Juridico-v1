@@ -34,16 +34,16 @@ function HeroSection() {
       <Container className="position-relative" style={{ zIndex: 2 }}>
         <Row className="justify-content-center">
           <Col md={10} lg={8}>
-            <h1 className="display-3 fw-bolder mb-4 text-warning">
+            <h1 className="display-3 fw-bolder mb-4 text-warning animate-fade-in delay-1">
               Excelência Legal em um Mundo em Evolução
             </h1>
             
-            <p className="lead mb-5 text-light opacity-75" style={{ fontSize: '1.4rem' }}>
+            <p className="lead mb-5 text-light opacity-75 animate-fade-in delay-2" style={{ fontSize: '1.4rem' }}>
               Nosso escritório combina a **tradição** da advocacia com a **inovação** tecnológica, 
               garantindo soluções jurídicas modernas e eficazes para seus desafios mais complexos.
             </p>
             
-            <div className="d-grid gap-3 d-sm-flex justify-content-sm-center">
+            <div className="d-grid gap-3 d-sm-flex justify-content-sm-center animate-fade-in delay-3">
               <Button 
                 variant="warning" 
                 size="lg" 
